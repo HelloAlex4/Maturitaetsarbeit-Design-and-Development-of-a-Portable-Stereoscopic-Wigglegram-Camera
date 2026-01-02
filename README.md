@@ -19,24 +19,19 @@ This project aims to fill a gap in the market by providing a self-contained, han
 
 ## Features
 
-* 
-**Simultaneous Capture:** Utilizes four horizontally aligned OV5640 camera modules with a synchronization delay of less than 16ms between the first and last frame.
+* **Simultaneous Capture:** Utilizes four horizontally aligned OV5640 camera modules with a synchronization delay of less than 16ms between the first and last frame.
 
 
-* 
-**Digital Workflow:** Instant preview of captured images and on-device processing of wigglegrams.
+* **Digital Workflow:** Instant preview of captured images and on-device processing of wigglegrams.
 
 
-* 
-**Portable Design:** Handheld, custom 3D-printed ABS housing with anodized aluminum covers.
+* **Portable Design:** Handheld, custom 3D-printed ABS housing with anodized aluminum covers.
 
 
-* 
-**Touchscreen Interface:** Integrated display running a Flutter-based UI for live preview, gallery browsing, and settings.
+* **Touchscreen Interface:** Integrated display running a Flutter-based UI for live preview, gallery browsing, and settings.
 
 
-* 
-**Battery Power:** Integrated 2-cell Li-ion battery with USB-C charging and telemetry.
+* **Battery Power:** Integrated 2-cell Li-ion battery with USB-C charging and telemetry.
 
 
 
@@ -61,16 +56,13 @@ The device is built on a multi-PCB architecture governed by a Raspberry Pi Compu
 
 The software is distributed across three primary layers:
 
-1. 
-**User Interface (Flutter):** Handles user interactions, live preview rendering, and the image gallery on the Raspberry Pi.
+1. **User Interface (Flutter):** Handles user interactions, live preview rendering, and the image gallery on the Raspberry Pi.
 
 
-2. 
-**Background Processes (Python/C):** Runs on the Raspberry Pi; manages camera synchronization, image processing (GIF generation), and hardware interfacing (fan control, battery monitoring).
+2. **Background Processes (Python/C):** Runs on the Raspberry Pi; manages camera synchronization, image processing (GIF generation), and hardware interfacing (fan control, battery monitoring).
 
 
-3. 
-**Embedded Firmware (C/C++):** Runs on the four STM32 microcontrollers; handles low-level hardware abstraction, DCMI interfacing, and image transmission via USB.
+3. **Embedded Firmware (C/C++):** Runs on the four STM32 microcontrollers; handles low-level hardware abstraction, DCMI interfacing, and image transmission via USB.
 
 
 ## Development & Testing
@@ -79,4 +71,4 @@ The project utilized a "fail-fast" empirical approach, prioritizing rapid physic
 
 ## License
 
-[Insert your license here, e.g., MIT, Apache 2.0, or All Rights Reserved]
+[Attribution-NonCommercial 4.0 International]
