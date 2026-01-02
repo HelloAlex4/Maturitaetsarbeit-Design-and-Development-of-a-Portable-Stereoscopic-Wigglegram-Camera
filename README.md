@@ -47,8 +47,7 @@ The device is built on a multi-PCB architecture governed by a Raspberry Pi Compu
 * **Power PCB:** Manages power distribution, converting battery voltage (7.2V - 7.8V) into regulated rails (5V, 3.3V, 2.8V, 1.5V). It handles USB-C power negotiation and battery charging.
 
 
-* 
-**Sensors:** 4x OV5640 Camera Modules arranged with a fixed lens-to-lens distance.
+* **Sensors:** 4x OV5640 Camera Modules arranged with a fixed lens-to-lens distance.
 
 
 
