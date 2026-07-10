@@ -1,7 +1,9 @@
 
 # Design and Development of a Portable Stereoscopic Wigglegram Camera
 
-!!!THIS IS NOT THE CURRENT VERSION OF MERGED.CAMERA, YOU SHOULD NOT COPY THIS BUILD!!!
+
+
+### !!!THIS IS NOT THE CURRENT VERSION OF MERGED.CAMERA, YOU SHOULD NOT COPY THIS BUILD!!!
 
 
 
